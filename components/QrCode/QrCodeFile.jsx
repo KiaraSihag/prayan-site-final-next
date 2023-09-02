@@ -41,10 +41,9 @@ const QrCodeFile = () => {
                             Every penny of your&apos;s might help an orphan get her means of learning or a jobless man get his means of survival arranged or a safety 
                             apparel to some stray animal preventing the often occuring casualties. You never know when you earn someone&apos;s blessings through your 
                             selfless act of kindness. Donate now to secure a spot in someone&apos;s prayers!</h5>
-                    
                         <span><Image src={QRCode2} id="qr-code" alt="QrCode" width="300px" height="300px"/></span>
+                        
                     </div>
-
                     <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
                         <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
                         <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
@@ -61,13 +60,10 @@ const QrCodeFile = () => {
                                         <h5>paytm id:</h5>
                                     </div>
 
-
                                     <div className="form-outline mb-4">
                                         <h6>9452065699795@paytm</h6> </div>
 
-
-
-
+                                    
                                     <button
                                         className="btn btn-primary btn-block mb-4"
                                         onClick={async () => {
@@ -83,8 +79,6 @@ const QrCodeFile = () => {
                                     >
                                         Copy
                                     </button>
-
-
 
                                 </form>
                             </div>
